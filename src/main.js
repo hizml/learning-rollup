@@ -9,4 +9,8 @@ console.log(arr)
  * 对于 Node.js：
  * # compile to a CommonJS module ('cjs')
  * rollup main.js --file bundle.js --format cjs
+ *
+ * 对于浏览器和 Node.js：
+ * # UMD format requires a bundle name
+ * rollup main.js --file bundle.js --format umd --name "myBundle"
  */
